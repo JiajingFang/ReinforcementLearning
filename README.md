@@ -4,7 +4,7 @@
 pip install gym
 ```
 ## Q learning
-![](https://github.com/JiajingFang/ReiforcementLearning/image/Q_learning_formular.jpg)  
+![](https://github.com/JiajingFang/ReinforcementLearning/blob/main/image/Q_learning_formular.jpg)  
 这里a和y是Q学习算法的参数。a被称为学习率，y被称为折扣因子，值的范围在0和1之间，有时等于1。y可以为零，而a则不能，因为损失应该以一定的学习率更新。这里的a表示与监督学习中使用的相同。y决定了我们希望给予未来奖励多少重要性。
 <ol>
   <li>步骤1：使用全零和Q值将Q表初始化为任意常量。</li>
