@@ -1,5 +1,9 @@
-# ReinforcementLearning 
-##Q learning
+# ReinforcementLearning
+## Install
+```Python
+pip install gym
+```
+## Q learning
 <ol>
   <li步骤1：使用全零和Q值将Q表初始化为任意常量。</li>
   <li>步骤2：让代理人对环境做出反应并探索行动。对于状态中的每个更改，请为当前状态（S）的所有可能操作中选择任意一个。</li>
